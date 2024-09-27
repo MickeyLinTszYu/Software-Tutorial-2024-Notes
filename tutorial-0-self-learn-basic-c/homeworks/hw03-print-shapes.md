@@ -1,5 +1,64 @@
 [Back to Main](../README.md)
 
+//My Answer:
+#include <stdio.h>
+
+int main() {
+    printf("size? ");
+    // your code starts here
+    int size;
+    int line;
+    int i;
+    int j;
+    int k;
+    scanf("%d",&size);
+    for (line=size;line>0;line--){
+        for(i=0;i<line;i++){
+            printf("*");
+        }
+        for(j=0;j<2*(size-line)+1;j++){
+            printf(" ");
+        }
+        for(i=0;i<line;i++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
+    for (line=1;line<size+1;line++){
+        for(i=0;i<line;i++){
+            printf("*");
+        }
+        for(j=0;j<2*(size-line)+1;j++){
+            printf(" ");
+        }
+        for(i=0;i<line;i++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
+    for(k=0;k<size;k++){
+        printf("*");
+    }
+    printf(" ");
+    for(k=0;k<size;k++){
+        printf("*");
+    }
+    printf("\n");
+    for(k=0;k<size;k++){
+        printf("*");
+    }
+    for(k=0;k<size;k++){
+        printf(" ");
+    }
+    for(k=0;k<size;k++){
+        printf("*");
+    }
+}
+
+    // your code ends here
+
 # Print Shapes
 
 > Pixel art
