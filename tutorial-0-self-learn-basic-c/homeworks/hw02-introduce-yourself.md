@@ -17,10 +17,14 @@ int main(){
   int year; float gpa;
   printf("What year are you in?\n");
   //your code starts here
-
+  scanf("%d",&year);
+  printf("What is your GPA?\n");
+  scanf("%f",&gpa);
+  printf("Hello, I am a year %d student with %.3f GPA",year,gpa);
   //your code ends here
   return 0;
 }
+
 ```
 
 ## Example Input:
