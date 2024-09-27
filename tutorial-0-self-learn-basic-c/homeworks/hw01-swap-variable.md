@@ -13,11 +13,15 @@ int main() {
     float float1 = 4.0f, float2 = 3.7f;
     printf("before swapping, a = %f, b = %f\n", float1, float2);
     // your code starts here
-    
+    int x;
+    x = float1;
+    float1 = float2;
+    float2 = x;
     // your code ends here
     printf("after swapping, a = %f, b = %f\n", float1, float2);
     return 0;
 }
+
 ```
 
 ## How to Run Your Code
